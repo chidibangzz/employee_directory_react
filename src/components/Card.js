@@ -1,4 +1,5 @@
 import React from "react";
+import '../index.css';
 
 function Card(props) {
   return (
@@ -6,7 +7,9 @@ function Card(props) {
       <div className="card-header">
         <h2>{props.heading}</h2>
       </div>
-      <div className="card-body">{props.children}</div>
+      <div className="card-body">{props.children}
+      </div>
+
     </div>
   );
 }
