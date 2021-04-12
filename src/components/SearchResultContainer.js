@@ -71,7 +71,7 @@ class SearchResultContainer extends Component {
   // When the form is submitted, search the Giphy API for `this.state.search`
   handleFormSubmit = event => {
     event.preventDefault();
-    this.searchGiphy(this.state.search);
+    this.searchGet(this.state.search);
   };
 
   render() {
