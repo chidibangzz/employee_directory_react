@@ -1,5 +1,4 @@
-## Project title
-Find the employee
+## Find the employee
 This app allows a user to find any employee in the database.
 ## Motivation
 I wanted to implement a responsive web page that updates every time i make a change to the webpage and i knew react could help me do such.
